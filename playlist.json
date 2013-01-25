@@ -1,0 +1,37 @@
+{"playlist":
+    [
+	{
+	    "0": {"src":"junk/paniq.mp3", "type":"audio/mp3"},
+	    "1": {"src":"junk/paniq.ogg", "type":"audio/ogg"},
+	    "config": {
+		"title": "An Educated Simpleton - Copy One",
+		"poster": "cover.jpg"
+	    }
+	},
+	{
+	    "0": {"src":"junk/paniq.mp3", "type":"audio/mp3"},
+	    "1": {"src":"junk/paniq.ogg", "type":"audio/ogg"},
+	    "config": {
+		"title": "An Educated Simpleton - Copy Two",
+		"poster": "cover.jpg"
+	    }
+	},
+	{
+	    "0": {"src":"junk/paniq.mp3", "type":"audio/mp3"},
+	    "1": {"src":"junk/paniq.ogg", "type":"audio/ogg"},
+	    "config": {
+		"title": "An Educated Simpleton - Copy Three",
+		"poster": "cover.jpg"
+	    }
+	},
+	{
+	    "0": {"src":"junk/paniq.mp3", "type":"audio/mp3"},
+	    "1": {"src":"junk/paniq.ogg", "type":"audio/ogg"},
+	    "config": {
+		"title": "An Educated Simpleton - Copy Four",
+		"poster": "cover.jpg"
+	    }
+	}
+
+    ]
+}

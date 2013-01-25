@@ -1,0 +1,4 @@
+RewriteEngine on
+
+RewriteRule ^playlist\.json?(.*)$ playlist.php$1
+

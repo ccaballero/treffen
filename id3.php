@@ -35,11 +35,13 @@ function getID3($filename = NULL) {
         }
         $FrameLength[$FSKey] = $LastCheck;
     }
+    
+    $FrameOut = array();
     foreach ($FrameStart as $k => $v) {
         $FrameOut[$FrameData[$k]] = trim(substr($ASCII, $v, $FrameLength[$k]));
         $FrameOut[$k] = trim(substr($ASCII, $v, $FrameLength[$k]));
     }
-    RETURN $FrameOut;
+    return $FrameOut;
 }
 
 //$f = '/home/jacobian/Música/Babasónicos/2001 - Jessico/01 - Los calientes.mp3';
